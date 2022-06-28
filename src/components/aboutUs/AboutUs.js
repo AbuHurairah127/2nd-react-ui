@@ -3,7 +3,7 @@ import companyCEO from "./../../assets/aboutUsData/CompanyCEO.jpg";
 import "@fontsource/work-sans";
 const AboutUs = () => {
   return (
-    <div className="w-screen h-[600px] xl:h-[945px]">
+    <div className="w-screen min-h-[600px] xl:h-[945px]">
       <div className="flex items-center py-8 md:p-10 lg:p-20 xl:p-24">
         <img
           src={companyCEO}
