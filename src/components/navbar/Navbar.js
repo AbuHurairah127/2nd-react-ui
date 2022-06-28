@@ -1,6 +1,7 @@
 import React from "react";
 import "@fontsource/work-sans";
-
+import { navLinks } from "../../constant/Data";
+import NavLink from "./navLinks/NavLink";
 const Navbar = () => {
   return (
     <div className="container">
@@ -17,7 +18,10 @@ const Navbar = () => {
                 textShadow: "0px 4px 4px rgba(0, 0, 0, 0.20)",
               }}
             >
-              <li className="hover:text-[#F9995D] active:text-[#F9995D]  cursor-pointer xl:text-xl 2xl:text-2xl">
+              {navLinks.map((item, index) => (
+                <NavLink label={item} key={index} />
+              ))}
+              {/* <li className="hover:text-[#F9995D] active:text-[#F9995D]  cursor-pointer xl:text-xl 2xl:text-2xl">
                 Home
               </li>
               <li className="hover:text-[#F9995D] active:text-[#F9995D]  cursor-pointer xl:text-xl 2xl:text-2xl">
@@ -31,7 +35,7 @@ const Navbar = () => {
               </li>
               <li className="hover:text-[#F9995D] active:text-[#F9995D]  cursor-pointer xl:text-xl 2xl:text-2xl">
                 Contact Us
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
