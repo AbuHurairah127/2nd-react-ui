@@ -6,16 +6,16 @@ import YearsInBusiness from "./../../../assets/statsData/YearsInBusiness.svg";
 
 const StatsCard = () => {
   return (
-    <div className="h-[80vh]">
+    <div className=" md:h-[45vh] lg:h-[80vw]">
       {" "}
-      <div className="cards max-w-[60vw] ">
+      <div className="cards md:max-w-[60vw] ">
         {/* 1st card (Happy Clients) */}
-        <div className="lg:relative lg:bottom-10 lg:left-80 z-50">
+        <div className="md:relative md:bottom-10 md:left-80 z-50">
           <div className="icon">
             <img
               src={HappyClientsIcon}
               alt=""
-              className="w-20 lg:relative lg:left-56 lg:top-8"
+              className="w-20 md:relative md:left-56 md:top-8"
             />
           </div>
           <div className="left">
@@ -56,7 +56,7 @@ const StatsCard = () => {
         </div>
         {/* 1st card End (Happy Clients) */}
         {/* 2nd card (Projects Completed) */}
-        <div className="lg:relative lg:bottom-44 lg:left-8">
+        <div className="md:relative md:bottom-44 md:left-8">
           <img
             src={ProjectsCompleted}
             alt=""
@@ -104,7 +104,7 @@ const StatsCard = () => {
         </div>
         {/* 2nd card End (Projects Completed) */}
         {/* 3rd card  (Awards Win) */}
-        <div className="lg:relative lg:bottom-64 lg:left-72 z-30">
+        <div className="md:relative md:bottom-64 md:left-72 z-30">
           <img
             src={AwardsWinIcon}
             alt=""
@@ -152,7 +152,7 @@ const StatsCard = () => {
         </div>
         {/* 3rd card End (Awards Win) */}
         {/* 4th card (Years in Business) */}
-        <div className="lg:relative lg:bottom-96 lg:left-20">
+        <div className="md:relative md:bottom-96 md:left-20">
           <img
             src={YearsInBusiness}
             alt=""

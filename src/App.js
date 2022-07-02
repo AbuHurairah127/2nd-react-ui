@@ -16,6 +16,7 @@ function App() {
       <AboutUs />
       <Services />
       <Stats />
+      <h1>Abu hurairah</h1>
     </div>
   );
 }
