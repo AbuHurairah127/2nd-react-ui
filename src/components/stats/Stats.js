@@ -8,7 +8,7 @@ const Stats = () => {
       <div className="order-2 lg:order-1 md:mx-16 lg:mx-0">
         <StatsCard />
       </div>
-      <div className="m-5 md:mx-16 md:text-center lg:w-[30vw] right order-1 lg:order-2">
+      <div className="m-5 md:mx-16 md:text-center lg:w-[30vw]  lg:relative lg:bottom-32 order-1 lg:order-2">
         <h1 className="text-3xl xl:text-4xl text-[#2947A9] font-bold tracking-wide">
           30 Years Experience
         </h1>

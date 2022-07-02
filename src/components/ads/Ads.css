@@ -1,0 +1,16 @@
+.container {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./../../assets/adsData/AdsBG.png);
+}
+p {
+  font-family: "work sans";
+  padding-top: 30px;
+  color: white;
+}
+.btn {
+  background-color: transparent;
+  color: white;
+  border-width: 2px;
+  border-color: white;
+  padding: 8px 15px;
+}

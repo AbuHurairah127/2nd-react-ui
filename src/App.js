@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Reasons from "./components/reasons/Reasons";
 import Services from "./components/services/Services";
 import Stats from "./components/stats/Stats";
+import Ads from "./components/ads/Ads";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <AboutUs />
       <Services />
       <Stats />
-      <h1>Abu hurairah</h1>
+      <Ads />
     </div>
   );
 }
