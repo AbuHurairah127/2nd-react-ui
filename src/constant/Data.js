@@ -61,3 +61,12 @@ export const servicesData = [
     text: "Electric",
   },
 ];
+// Projects Nav Link
+export const projectNavlinkData = [
+  { title: "All" },
+  { title: "Commercial" },
+  { title: "Residential" },
+  { title: "Other" },
+];
+// Projects Cards Data
+export const projectsCardData = [{}];
