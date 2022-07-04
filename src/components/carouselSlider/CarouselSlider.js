@@ -6,6 +6,7 @@ const CarouselSlider = () => {
     <div
       style={{
         backgroundImage: `url(${carouselBG})`,
+        backgroundAttachment: "fixed",
         backgroundSize: "100% 100%",
         fontFamily: "work sans",
       }}

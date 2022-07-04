@@ -1,23 +1,26 @@
 import React from "react";
 
-const ProjectsCard = () => {
+const ProjectsCard = (props) => {
+  const { image, buildingName, buildingAddress } = props;
   return (
-    <div className="w-[25vw] h-[22vw] bg-red-100">
-      <div className="w-full h-[16vw] ">image</div>
-      <div className="bg-[#2947A9] w-full h-[6vw]">
+    <div className=" md:w-[35vw] md:h-[32vw] lg:w-[25vw] lg:min-h-[22vw]">
+      <div className="w-full min-h-[16vw] ">
+        <img src={image} alt="" />
+      </div>
+      <div className="bg-[#2947A9] w-full h-[15vw] md:h-[10vw]  lg:min-h-[6vw] flex flex-col justify-evenly">
         <p
-          className="building-name px-2 text-white text-xl font-semibold tracking-wide"
+          className="building-name px-2 text-white text-base font-semibold tracking-wide"
           style={{
             fontFamily: "work sans",
           }}
         >
-          building name
+          {buildingName}
         </p>
         <p
-          className="building-address px-2 text-white text-base tracking-wide"
+          className="building-address px-2 text-white text-md tracking-wide"
           style={{ fontFamily: "work sans" }}
         >
-          building address
+          {buildingAddress}
         </p>
       </div>
     </div>

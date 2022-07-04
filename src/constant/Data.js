@@ -8,6 +8,12 @@ import ConsultationIcon from "./../assets/servicesData/ConsultationIcon.svg";
 import ElectricIcon from "./../assets/servicesData/ElectricIcon.svg";
 import RenovationIcon from "./../assets/servicesData/RenovationIcon.svg";
 import RepairIcon from "./../assets/servicesData/RepairIcon.svg";
+
+// importing projects data
+import mrParkinStoneHouse from "./../assets/projectsData/mrParkinStoneHouse.png";
+import oreganoHeight from "./../assets/projectsData/oreganoHeight.png";
+import wildStoneInfraHotel from "./../assets/projectsData/wildStoneInfraHotel.png";
+import wishStoneBuilding from "./../assets/projectsData/wishStoneBuilding.png";
 // NavLink Constant Data
 export const navLinks = [
   "Home",
@@ -69,4 +75,25 @@ export const projectNavlinkData = [
   { title: "Other" },
 ];
 // Projects Cards Data
-export const projectsCardData = [{}];
+export const projectsCardData = [
+  {
+    img: wildStoneInfraHotel,
+    buildingName: "Wild Stone Infra Hotel",
+    buildingAddress: "2715 Ash Dr. San Jose, South Dakota",
+  },
+  {
+    img: wishStoneBuilding,
+    buildingName: "Wish Stone Building",
+    buildingAddress: "2972 Westheimer Rd. Santa Ana, Illinois",
+  },
+  {
+    img: mrParkinStoneHouse,
+    buildingName: "Mr.Parkin Stone House",
+    buildingAddress: "3517 W. Gray St. Utica, Pennsylvania",
+  },
+  {
+    img: oreganoHeight,
+    buildingName: "Oregano Height",
+    buildingAddress: "2464 Royal Ln. Mesa, New Jersey",
+  },
+];

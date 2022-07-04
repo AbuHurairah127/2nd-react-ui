@@ -1,6 +1,7 @@
 .ads-container {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./../../assets/adsData/AdsBG.png);
+  background-attachment: fixed;
 }
 .ads-text {
   font-family: "work sans";
