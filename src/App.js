@@ -8,6 +8,7 @@ import Services from "./components/services/Services";
 import Stats from "./components/stats/Stats";
 import Ads from "./components/ads/Ads";
 import Project from "./components/projects/Project";
+import ContactForm from "./components/contactForm/ContactForm";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Stats />
       <Ads />
       <Project />
+      <ContactForm />
     </div>
   );
 }

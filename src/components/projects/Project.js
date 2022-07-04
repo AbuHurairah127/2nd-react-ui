@@ -5,7 +5,7 @@ import { projectsCardData } from "./../../constant/Data";
 import ProjectsCard from "./projectsCard/ProjectsCard";
 const Project = () => {
   return (
-    <div className="h-[100vh] min-w-[30vw] flex flex-col lg:flex-row justify-between mt-8 xl:mt-12">
+    <div className="min-h-[100vh] min-w-[30vw] flex flex-col lg:flex-row justify-between my-8 xl:my-12">
       <div className="left flex flex-col items-center lg:w-[30vw]">
         <h1 className="project-heading text-2xl font-bold xl:text-3xl ">
           Project
